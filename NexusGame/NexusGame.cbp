@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="NexusGame" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/NexusGame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/NexusGame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="app.cpp" />
+		<Unit filename="app.h" />
+		<Unit filename="breakablebrick.cpp" />
+		<Unit filename="breakablebrick.h" />
+		<Unit filename="brickbase.cpp" />
+		<Unit filename="brickbase.h" />
+		<Unit filename="def.h" />
+		<Unit filename="fpscontroller.cpp" />
+		<Unit filename="fpscontroller.h" />
+		<Unit filename="game.cpp" />
+		<Unit filename="game.h" />
+		<Unit filename="gameobject.cpp" />
+		<Unit filename="gameobject.h" />
+		<Unit filename="gamescreen.cpp" />
+		<Unit filename="gamescreen.h" />
+		<Unit filename="levelbase.cpp" />
+		<Unit filename="levelbase.h" />
+		<Unit filename="levelfour.cpp" />
+		<Unit filename="levelfour.h" />
+		<Unit filename="levelone.cpp" />
+		<Unit filename="levelone.h" />
+		<Unit filename="levelthree.cpp" />
+		<Unit filename="levelthree.h" />
+		<Unit filename="leveltwo.cpp" />
+		<Unit filename="leveltwo.h" />
+		<Unit filename="localplayer.cpp" />
+		<Unit filename="localplayer.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="menuscreen.cpp" />
+		<Unit filename="menuscreen.h" />
+		<Unit filename="nexus.cpp" />
+		<Unit filename="nexus.h" />
+		<Unit filename="pchNexusGame.h" />
+		<Unit filename="screenbase.cpp" />
+		<Unit filename="screenbase.h" />
+		<Unit filename="unbreakablebrick.cpp" />
+		<Unit filename="unbreakablebrick.h" />
+		<Unit filename="wall.cpp" />
+		<Unit filename="wall.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
